@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INZOX — Platform Operations as a Service</title>
+  <meta name="description" content="INZOX is your complete, on-demand technology team. Platform, DevOps, Security, DBA, SRE and 24/7 Operations across every cloud. Build your product. We run everything else." />
+  <meta name="theme-color" content="#0a1628" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="INZOX — Platform Operations as a Service" />
+  <meta property="og:description" content="Build your product. We run everything else. Every app. Every agent. Every cloud. No tradeoffs." />
+  <meta property="og:image" content="assets/logo.png" />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Background decoration -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--one" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--two" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="brand" aria-label="INZOX home">
+        <img src="assets/logo.png" alt="INZOX logo" class="brand__logo" />
+        <span class="brand__name">INZOX</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#why">Why INZOX</a>
+        <a href="#services">Services</a>
+        <a href="#packages">Packages</a>
+        <a href="#industries">Industries</a>
+      </nav>
+      <div class="nav__cta">
+        <a href="#contact" class="btn btn--ghost">Talk to an Architect</a>
+        <a href="#contact" class="btn btn--primary">Book a Consultation</a>
+      </div>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <span class="pill">
+          <span class="pill__dot"></span>
+          Now offering Platform Operations as a Service
+        </span>
+
+        <h1 class="hero__title">
+          <span class="hero__rotator" id="rotator" aria-live="polite">Build your product.</span><br />
+          <span class="grad">We run everything else.</span>
+        </h1>
+
+        <p class="hero__sub">
+          Whether you run on AWS, Azure, GCP, Oracle, DigitalOcean, Hetzner, Kubernetes, VPS,
+          dedicated servers or your own infrastructure, INZOX becomes your outsourced
+          <strong>Platform, DevOps, Security, DBA, SRE and Operations</strong> team.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary btn--lg">Book a Consultation</a>
+          <a href="#services" class="btn btn--ghost btn--lg">Explore Services</a>
+        </div>
+
+        <div class="hero__marquee" aria-hidden="true">
+          <div class="marquee__track">
+            <span>Code Anywhere. Deploy Everywhere.</span>
+            <span>From idea to production. Fully managed.</span>
+            <span>Your fastest path to production.</span>
+            <span>Ship software peacefully.</span>
+            <span>Every app. Every agent. Every cloud. No tradeoffs.</span>
+            <span>Code Anywhere. Deploy Everywhere.</span>
+            <span>From idea to production. Fully managed.</span>
+            <span>Your fastest path to production.</span>
+            <span>Ship software peacefully.</span>
+            <span>Every app. Every agent. Every cloud. No tradeoffs.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats / clouds strip -->
+    <section class="strip">
+      <div class="container strip__inner">
+        <div class="strip__item"><strong>24/7</strong><span>NOC &amp; Operations</span></div>
+        <div class="strip__item"><strong>Multi-Cloud</strong><span>AWS · Azure · GCP · OCI</span></div>
+        <div class="strip__item"><strong>15+</strong><span>Service Domains</span></div>
+        <div class="strip__item"><strong>Zero</strong><span>Hiring Overhead</span></div>
+      </div>
+    </section>
+
+    <!-- Why -->
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Why INZOX</span>
+          <h2>Most companies have developers — but lack the team to run everything else.</h2>
+          <p class="section__lead">
+            Think of us as your complete technology department, available whenever you need it.
+            We fill the gap that slows products down.
+          </p>
+        </div>
+
+        <div class="gap-grid">
+          <div class="gap-card">Platform Engineers</div>
+          <div class="gap-card">DevOps Engineers</div>
+          <div class="gap-card">SRE Engineers</div>
+          <div class="gap-card">Security Engineers</div>
+          <div class="gap-card">Database Administrators</div>
+          <div class="gap-card">Cloud Architects</div>
+          <div class="gap-card">Compliance Specialists</div>
+          <div class="gap-card">24/7 Operations Teams</div>
+        </div>
+
+        <div class="where">
+          <span>We work wherever you are:</span>
+          <ul>
+            <li>On your infrastructure</li>
+            <li>On our infrastructure</li>
+            <li>Hybrid environments</li>
+            <li>Single cloud</li>
+            <li>Multi-cloud</li>
+            <li>On-premises</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Services -->
+    <section class="section section--alt" id="services">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Core Services</span>
+          <h2>Everything required to deploy, secure, scale and operate your stack.</h2>
+          <p class="section__lead">One partner for the full lifecycle — from architecture to 24/7 operations.</p>
+        </div>
+
+        <div class="services-grid" id="servicesGrid">
+          <!-- cards injected by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages -->
+    <section class="section" id="packages">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Service Packages</span>
+          <h2>Pick the level of coverage your stage needs.</h2>
+          <p class="section__lead">From your first deployment to a complete outsourced technology department.</p>
+        </div>
+
+        <div class="pkg-grid">
+          <article class="pkg">
+            <div class="pkg__head">
+              <h3>Startup</h3>
+              <p>For startups &amp; small businesses.</p>
+            </div>
+            <ul class="pkg__list">
+              <li>Managed Hosting</li>
+              <li>Cloud Infrastructure</li>
+              <li>SSL Management</li>
+              <li>Monitoring</li>
+              <li>Backups</li>
+              <li>Email Hosting</li>
+              <li>Basic Security</li>
+              <li>Business Hours Support</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost btn--block">Get Started</a>
+          </article>
+
+          <article class="pkg">
+            <div class="pkg__head">
+              <h3>Growth</h3>
+              <p>For growing products &amp; SaaS.</p>
+            </div>
+            <ul class="pkg__list">
+              <li>Kubernetes</li>
+              <li>CI/CD &amp; GitOps</li>
+              <li>Monitoring &amp; Logging</li>
+              <li>WAF</li>
+              <li>Backup &amp; Disaster Recovery</li>
+              <li>Security Reviews</li>
+              <li>DBA Support</li>
+              <li>Extended Support</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost btn--block">Get Started</a>
+          </article>
+
+          <article class="pkg pkg--featured">
+            <span class="pkg__badge">Most Popular</span>
+            <div class="pkg__head">
+              <h3>Business</h3>
+              <p>For production-critical environments.</p>
+            </div>
+            <ul class="pkg__list">
+              <li>Managed Kubernetes</li>
+              <li>Platform Engineering</li>
+              <li>DevOps &amp; Security Teams</li>
+              <li>DBA Team</li>
+              <li>Observability Stack</li>
+              <li>Compliance Assistance</li>
+              <li>Disaster Recovery</li>
+              <li>High Availability Architecture</li>
+              <li>24/7 Support</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--block">Get Started</a>
+          </article>
+
+          <article class="pkg">
+            <div class="pkg__head">
+              <h3>Enterprise</h3>
+              <p>Your complete outsourced tech dept.</p>
+            </div>
+            <ul class="pkg__list">
+              <li>CTO Advisory</li>
+              <li>Platform, DevOps &amp; SRE Teams</li>
+              <li>Security, DBA &amp; Compliance Teams</li>
+              <li>Multi-Cloud Operations</li>
+              <li>24/7 NOC &amp; Incident Response</li>
+              <li>Disaster Recovery Program</li>
+              <li>Dedicated Technical Account Manager</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost btn--block">Talk to Sales</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Industries -->
+    <section class="section section--alt" id="industries">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Industries We Support</span>
+          <h2>Trusted across regulated, high-scale and fast-moving sectors.</h2>
+        </div>
+        <div class="industries">
+          <span>SaaS Platforms</span>
+          <span>Healthcare</span>
+          <span>FinTech</span>
+          <span>E-Commerce</span>
+          <span>Logistics</span>
+          <span>Education</span>
+          <span>Startups</span>
+          <span>Government</span>
+          <span>Enterprise</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Closing / CTA -->
+    <section class="cta" id="contact">
+      <div class="container cta__inner">
+        <h2>We become your technology team.</h2>
+        <p>
+          No matter where your infrastructure runs. No matter what stack you use.
+          No matter how complex your environment is. <strong>You build the business. We run the technology.</strong>
+        </p>
+        <div class="cta__actions">
+          <a href="mailto:hello@inzox.com" class="btn btn--primary btn--lg">Book a Consultation</a>
+          <a href="mailto:hello@inzox.com" class="btn btn--ghost btn--lg">Talk to an Architect</a>
+        </div>
+        <p class="cta__note">Every app. Every agent. Every cloud. No tradeoffs.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo.png" alt="INZOX logo" />
+        <div>
+          <strong>INZOX</strong>
+          <span>Platform Operations as a Service</span>
+        </div>
+      </div>
+      <p class="footer__copy">&copy; <span id="year"></span> INZOX Technology Operations. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
