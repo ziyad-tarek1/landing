@@ -1,5 +1,7 @@
 # INZOX Technology Operations
 
+
+# add for new version
 ## Hero Section
 
 ### Headline
